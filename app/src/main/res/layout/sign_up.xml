@@ -1,0 +1,360 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+    <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="30dp"
+    android:layout_marginTop="20dp"
+    android:layout_marginBottom="10dp"
+    android:gravity="bottom"
+    android:orientation="horizontal"
+    android:weightSum="2">
+     <ImageView
+         android:layout_weight=".25"
+        android:id="@+id/imageView1"
+        android:layout_width="0dp"
+        android:layout_marginBottom="20dp"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo_yellow_small" />
+    <TextView
+        android:layout_weight="1.4"
+        android:id="@+id/sign_up"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#ffba00"
+        android:gravity="center"
+        android:text="Sign Up" />
+    </LinearLayout>
+    <ScrollView 
+        android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:layout_marginLeft="30dp"
+	    android:layout_marginRight="30dp"
+	    android:layout_marginTop="20dp"
+	    android:layout_marginBottom="20dp">
+	    <LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"	    
+	    android:orientation="vertical" >
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:weightSum="3" >
+
+
+    <EditText
+        android:id="@+id/f_name"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:imeOptions="flagNoExtractUi"
+        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        android:maxLength="20"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:layout_weight="1"
+        android:inputType="textPersonName"
+        android:layout_marginRight="20dp"
+        android:hint="First Name"
+        android:background="@drawable/edittext_yellow_singleline" >
+
+    </EditText>
+
+
+    <EditText
+        android:id="@+id/l_name"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:imeOptions="flagNoExtractUi"
+        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ"
+        android:maxLength="20"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:layout_weight="1"
+        android:inputType="textPersonName"
+        android:layout_marginRight="20dp"
+        android:hint="Last Name"
+        android:background="@drawable/edittext_yellow_singleline" />
+
+
+    <EditText
+        android:id="@+id/uname"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:imeOptions="flagNoExtractUi"
+        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
+        android:maxLength="20"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:layout_weight="1"
+        android:inputType="textPersonName"
+        android:hint="Username *"
+        android:background="@drawable/edittext_yellow_singleline" />
+
+	</LinearLayout>
+	<Space 
+	    android:layout_width="wrap_content"
+	    android:layout_height="10dp"/>
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:weightSum="3" >
+    <EditText
+        android:id="@+id/plan_id"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:imeOptions="flagNoExtractUi"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:layout_weight="1"
+        android:inputType="textPostalAddress"
+        android:layout_marginRight="20dp"
+        android:hint="Member Plan"
+        android:background="@drawable/edittext_yellow_singleline" />
+    <EditText
+        android:id="@+id/mobile"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:imeOptions="flagNoExtractUi"
+        android:digits="0123456789"
+        android:maxLength="10"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:layout_weight="1"
+        android:inputType="phone"
+        android:layout_marginRight="20dp"
+        android:hint="Mobile *     "
+        android:background="@drawable/edittext_yellow_singleline" />
+    
+    <EditText
+        android:id="@+id/pass"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:imeOptions="flagNoExtractUi"
+        android:maxLength="20"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:layout_weight="1"
+        android:inputType="textPassword"
+        android:hint="Password *"
+        android:background="@drawable/edittext_yellow_singleline" />
+
+	</LinearLayout>
+	<Space 
+	    android:layout_width="wrap_content"
+	    android:layout_height="10dp"/>
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:weightSum="3" >
+    <EditText
+        android:id="@+id/address"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:imeOptions="flagNoExtractUi"
+        android:maxLength="50"
+        android:digits="qwertyuioplkjhgfdsazxcvbnmQWERTYUIOPLKJHGFDSAZXCVBNM 1234567890/-"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:layout_weight="1"
+        android:inputType="textPostalAddress"
+        android:layout_marginRight="20dp"
+        android:hint="Address"
+        android:background="@drawable/edittext_yellow_singleline" />
+	<EditText
+        android:id="@+id/phone"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:imeOptions="flagNoExtractUi"
+        android:digits="0123456789"
+        android:maxLength="12"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:layout_weight="1"
+        android:inputType="phone"
+        android:layout_marginRight="20dp"
+        android:hint="Phone               "
+        android:background="@drawable/edittext_yellow_singleline" />
+    
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:imeOptions="flagNoExtractUi"
+        android:maxLength="30"
+        android:digits="qwertyuioplkjhgfdsazxcvbnmQWERTYUIOPLKJHGFDSAZXCVBNM.1234567890_-@"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:layout_weight="1"
+        android:inputType="textEmailAddress"
+        android:hint="Email *   "
+        android:background="@drawable/edittext_yellow_singleline" />
+
+	</LinearLayout>
+	<Space 
+	    android:layout_width="wrap_content"
+	    android:layout_height="10dp"/>
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:weightSum="3" >
+
+
+    <EditText
+        android:id="@+id/city"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:imeOptions="flagNoExtractUi"
+        android:maxLength="30"
+        android:digits="qwertyuioplkjhgfdsazxcvbnmQWERTYUIOPLKJHGFDSAZXCVBNM"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:layout_weight="1"
+        android:inputType="textPostalAddress"
+        android:layout_marginRight="20dp"
+        android:hint="City"
+        android:background="@drawable/edittext_yellow_singleline" />
+
+
+    <EditText
+        android:id="@+id/state"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:imeOptions="flagNoExtractUi"
+        android:maxLength="30"
+        android:digits="qwertyuioplkjhgfdsazxcvbnmQWERTYUIOPLKJHGFDSAZXCVBNM "
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:layout_weight="1"
+        android:inputType="textPostalAddress"
+        android:layout_marginRight="20dp"
+        android:hint="State"
+        android:background="@drawable/edittext_yellow_singleline" />
+    <LinearLayout
+	    android:layout_width="0dp"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:layout_weight="1" >
+    <EditText
+        android:id="@+id/dob"
+        android:layout_width="265dp"
+        android:layout_height="40dp"
+        android:imeOptions="flagNoExtractUi"
+        android:enabled="false"
+        android:digits="0123456789-"
+        android:maxLength="10"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        
+        android:inputType="date"
+        android:hint="Date of Birth"
+        android:background="@drawable/edittext_yellow_singleline" />
+
+    <ImageButton
+        android:id="@+id/img_dob"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:background="@drawable/press_effect_calendar" />
+
+    </LinearLayout>
+
+</LinearLayout>
+<Space 
+	    android:layout_width="wrap_content"
+	    android:layout_height="10dp"/>
+<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:orientation="horizontal"
+	    android:weightSum="3" >
+
+
+    <EditText
+        android:id="@+id/country"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:imeOptions="flagNoExtractUi"
+        android:maxLength="30"
+        android:digits="qwertyuioplkjhgfdsazxcvbnmQWERTYUIOPLKJHGFDSAZXCVBNM "
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:layout_weight="1"
+        android:inputType="textPostalAddress"
+        android:layout_marginRight="20dp"
+        android:hint="Country"
+        android:background="@drawable/edittext_yellow_singleline" />
+
+
+    <EditText
+        android:id="@+id/zipcode"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:imeOptions="flagNoExtractUi"
+        android:maxLength="6"
+        android:digits="1234567890"
+        android:textColor="#000000"
+        android:textSize="18dp"
+        android:layout_weight="1"
+        android:inputType="number"
+        android:layout_marginRight="20dp"
+        android:hint="Zipcode  "
+        android:background="@drawable/edittext_yellow_singleline" />
+    	<LinearLayout
+	    android:layout_width="0dp"
+	    android:layout_height="wrap_content"
+	    android:layout_weight="1"
+	    android:weightSum="1">
+    <Spinner
+        android:id="@+id/gender"
+        android:layout_width="0dp"
+        android:layout_height="40dp"
+        android:layout_weight=".94"
+        android:background="@drawable/spinner_press"
+        android:popupBackground="#e6ad00"
+        android:minHeight="40dp"
+        android:spinnerMode="dropdown"
+        android:dropDownWidth="fill_parent" />
+   
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:src="@drawable/drop_icon1"
+        android:background="@color/spinner_default_color"
+        android:layout_weight=".06" />
+     </LinearLayout>
+
+</LinearLayout>
+<Space 
+	    android:layout_width="wrap_content"
+	    android:layout_height="30dp"/>
+<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:gravity="center"
+	    android:orientation="horizontal" >
+
+<Button
+        android:id="@+id/ok"
+        android:layout_width="150dp"
+        android:layout_height="45dp"
+        android:gravity="center"
+        android:textSize="25dp"
+        android:text="Done"
+        android:background="@drawable/press_effect_rect" />
+</LinearLayout>
+</LinearLayout>
+</ScrollView>   
+
+</LinearLayout>

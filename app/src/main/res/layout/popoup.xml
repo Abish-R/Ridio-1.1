@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@android:color/background_light">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_margin="1dp"
+        android:background="@color/silver">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_margin="10dp">
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Select the Option"
+                android:textColor="@color/black"
+                android:textStyle="bold"
+                android:gravity="center"/>
+            <!--ImageView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:src="@drawable/rate_master" /-->
+            <Button
+                android:id="@+id/range"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Range" />
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/date_ascen"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Date Sort" />
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/pls1" />
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+                <Button
+                    android:id="@+id/date_descen"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Date Sort" />
+                <ImageView
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:src="@drawable/pls1" />
+            </LinearLayout>
+            <Button
+                android:id="@+id/all"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="All Entry" />
+            <Button
+                android:id="@+id/dismiss"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="Dismiss" />
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

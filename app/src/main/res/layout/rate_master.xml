@@ -1,0 +1,188 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"   
+     android:background="#FFFFFF">
+    <ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+     <LinearLayout 
+         android:weightSum="1.5"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:gravity="center_horizontal"
+    android:layout_marginTop="30dp"
+    android:layout_marginRight="30dp"
+    android:orientation="vertical" >
+    <LinearLayout 
+        android:layout_weight=".2"
+        android:weightSum="2"
+    android:layout_width="fill_parent"
+    android:layout_height="0dp"
+    android:orientation="horizontal"
+    android:gravity="bottom" >
+    <ImageView
+        android:layout_weight=".25"
+        android:id="@+id/imageView1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginRight="30dp"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/logo_yellow_small" />
+         <TextView
+             android:layout_weight="1.5"
+        android:id="@+id/textView"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textColor="#ffba00"
+        android:textStyle="bold"
+        android:textSize="@dimen/layout_title"
+        android:text="Rate Master" />
+
+         <!--EditText
+             android:id="@+id/search_rate"
+             android:layout_width="fill_parent"
+             android:layout_height="wrap_content"
+             android:imeOptions="flagNoExtractUi"
+             android:ems="10"
+             android:hint="Search"
+             android:textColor="#000000" /-->
+         
+         </LinearLayout>
+     
+    <LinearLayout 
+        android:layout_weight="1.1"
+    android:layout_width="wrap_content"
+    android:layout_height="0dp"
+    android:gravity="center_horizontal"
+    android:layout_marginLeft="20dp"
+    android:layout_marginTop="30dp"
+    android:orientation="vertical" >
+ 	   <!--TextView
+        android:id="@+id/textView1"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffba00"
+        android:textSize="16dp"
+        android:text="Rate Id" />
+ 	   <EditText
+            android:id="@+id/rate_id"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:imeOptions="flagNoExtractUi"
+            android:enabled="false"
+            android:paddingLeft="5dp"
+            android:textSize="24dp"
+            android:layout_weight="1"
+            android:textColor="@color/black"
+            android:inputType="number"
+            android:layout_marginBottom="15dp"
+            android:background="@drawable/edittext_rect_yellow_border" /-->
+        <TextView
+        android:id="@+id/textView3"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffba00"
+        android:textSize="@dimen/textview_small"
+        android:text="Rate for" />
+    <EditText
+            android:id="@+id/vehicle_created_date"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:layout_marginBottom="15dp"
+            android:imeOptions="flagNoExtractUi"
+            android:enabled="false"
+            android:paddingLeft="5dp"
+            android:textSize="24dp"
+            android:ems="10"
+            android:inputType="date"
+            android:textColor="@color/black"
+            android:background="@drawable/edittext_rect_yellow_border" />
+	<TextView
+        android:id="@+id/textView0"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textColor="#ffba00"
+        android:textSize="@dimen/textview_small"
+        android:text="Rate Category" />
+    
+	    <EditText
+            android:id="@+id/rate_amount_small"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:imeOptions="flagNoExtractUi"
+			android:maxLength="5"
+            android:paddingLeft="5dp"
+            android:textSize="24dp"
+            android:hint="Small"
+            android:inputType="number"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/black"
+            android:background="@drawable/edittext_rect_yellow_border" />
+	    <EditText
+            android:id="@+id/rate_amount_medium"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:imeOptions="flagNoExtractUi"
+			android:maxLength="5"
+            android:paddingLeft="5dp"
+            android:textSize="24dp"
+            android:hint="Medium"
+            android:inputType="number"
+            android:layout_marginBottom="5dp"
+            android:textColor="@color/black"
+            android:background="@drawable/edittext_rect_yellow_border" />
+	    <EditText
+            android:id="@+id/rate_amount_high"
+            android:layout_width="300dp"
+            android:layout_height="40dp"
+            android:imeOptions="flagNoExtractUi"
+			android:maxLength="5"
+            android:paddingLeft="5dp"
+            android:textSize="24dp"
+            android:hint="High"
+            android:inputType="number"
+            android:layout_marginBottom="15dp"
+            android:textColor="@color/black"
+            android:background="@drawable/edittext_rect_yellow_border" />
+
+ 	  
+
+
+	<Button
+	    android:id="@+id/save_rate"
+	    android:layout_width="200dp"
+	    android:layout_height="wrap_content"
+	    android:paddingTop="10dp"
+	    android:paddingBottom="10dp"
+	    android:layout_marginTop="30dp"
+	    android:textColor="#FFFFFF"
+	    android:textSize="26dp"
+	    android:text="Save Rate" 
+	    android:background="@drawable/press_effect_rect"/>
+
+	<!--Button
+	    android:id="@+id/upload_rate"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="30dp"
+	    android:textSize="26dp"
+	    android:text="Upload Rate" 
+	    android:background="@drawable/other_button_shape"/-->
+</LinearLayout>
+	<LinearLayout 
+	    android:layout_weight=".2"
+    android:layout_width="fill_parent"
+    android:layout_height="0dp"
+    android:gravity="right|bottom">
+<Button
+	    android:id="@+id/load_rate_list"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginBottom="10dp"
+	    android:background="@drawable/press_effect_rate_master_list_button"/>
+</LinearLayout>
+</LinearLayout>
+    </ScrollView>
+</LinearLayout>

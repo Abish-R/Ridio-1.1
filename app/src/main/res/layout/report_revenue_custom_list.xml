@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+    <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="35dp"
+    android:orientation="horizontal"
+    android:weightSum="5" >
+    <!--TextView
+        android:id="@+id/tid1"
+        android:layout_width="250dp"
+        android:textSize="25dp"
+        android:layout_marginRight="1dp"
+        android:layout_height="wrap_content"
+        android:text="Bike Number" /-->
+    <!--TextView
+        android:layout_weight="1.1"
+        android:id="@+id/id1"
+        android:layout_width="0dp"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="1dp"
+        android:layout_height="wrap_content"
+        android:text="TextViewqwer" />
+     <!-/LinearLayout>
+     <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:orientation="horizontal" >
+	<TextView
+        android:id="@+id/tnm1"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:layout_marginRight="1dp"
+        android:text="Bike Name" /-->
+    <TextView
+        android:layout_weight="1.3"
+        android:id="@+id/nm1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:paddingLeft="10dp"
+        android:text="TextView" />
+    <!--/LinearLayout>
+     <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:orientation="horizontal" >
+    <TextView
+        android:id="@+id/ttd"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:layout_marginRight="1dp"
+        android:text="Total Report Days" /!-->
+
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/td"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:text="Tex" />
+    <!--/LinearLayout>
+     <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:orientation="horizontal" >
+
+          <TextView
+        android:id="@+id/tbd"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:layout_marginRight="1dp"
+        android:text="Total Booked Days" /!-->
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/bd"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:text="Tex" />
+    <!--/LinearLayout>
+     <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:orientation="horizontal" >
+    <TextView
+        android:id="@+id/tdp"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:layout_marginRight="1dp"
+        android:text="Percentage Booked" /!-->
+
+    <TextView
+        android:layout_weight=".9"
+        android:id="@+id/dp"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:textColor="@color/black"
+        android:text="TextView" />
+    <!--/LinearLayout>
+     <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" >
+    <TextView
+        android:id="@+id/tta"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+        android:textSize="25dp"
+        android:text="Total Revenue" /!-->
+    
+
+    <TextView
+        android:layout_weight=".8"
+        android:id="@+id/ta"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:textSize="20dp"
+        android:paddingRight="10dp"
+        android:textColor="@color/black"
+        android:text="Text" />
+    </LinearLayout>
+
+
+</LinearLayout>

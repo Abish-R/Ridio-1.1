@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+ <color name="white">#FFFFFF</color>
+ <color name="ridio_yellow">#ffba00</color>
+ <color name="transparent">#FFFFFFFF</color>
+ <color name="ridio_yellow_lite">#e57e04</color>
+ <color name="silver">#C0C0C0</color>
+ <color name="gray">#808080</color>
+ <color name="olive">#808000</color>
+ <color name="purple">#800080</color>
+ <color name="maroon">#800000</color>
+ <color name="aqua">#00FFFF</color>
+ <color name="lime">#00FF00</color>
+ <color name="teal">#008080</color>
+ <color name="green">#008000</color>
+ <color name="blue">#0000FF</color>
+ <color name="navy">#000080</color>
+ <color name="black">#000000</color>
+ <color name="list_title_color">#f6bf54</color>
+ <color name="spinner_default_color">#ffe08c</color>
+ <color name="listview_title_font">#e57e04</color>
+ <color name="listview_second_row">#f9deaa</color>
+ <color name="listview_first_row">#f2b640</color>
+</resources>

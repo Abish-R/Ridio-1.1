@@ -1,0 +1,467 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="#FFFFFF">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginBottom="20dp"
+        android:orientation="horizontal"
+        android:gravity="bottom"
+        android:weightSum="2">
+
+        <ImageView
+            android:layout_weight=".25"
+            android:id="@+id/imageView1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo_yellow_small" />
+
+        <TextView
+            android:layout_weight="1.2"
+            android:id="@+id/textView1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:textColor="#ffba00"
+            android:textSize="30dp"
+            android:text="Return Vehicle"
+            android:textAppearance="?android:attr/textAppearanceLarge" />
+
+        <Switch
+            android:layout_weight=".55"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:gravity="right"
+            android:text="Today's"
+            android:textStyle="bold"
+            android:textColor="@color/black"
+            android:textSize="20dp"
+            android:id="@+id/list_toggle" />
+
+    </LinearLayout>
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:layout_marginRight="30dp"
+            android:orientation="horizontal"
+            android:weightSum="2">
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_height="fill_parent"
+                android:orientation="vertical"
+                android:layout_marginBottom="30dp"
+                android:layout_weight="1.2">
+                <EditText
+                     android:id="@+id/search"
+                     android:layout_width="fill_parent"
+                     android:layout_height="35dp"
+                     android:hint="Customer Mobile"
+                     android:textSize="22dp"
+                     android:layout_marginLeft="20dp"
+                     android:paddingLeft="10dp"
+                     android:background="@drawable/edittext_rect_yellow_border"
+                     android:drawableEnd="@drawable/search"
+                     android:layout_marginBottom="10dp"
+                     android:imeOptions="flagNoExtractUi"
+                     android:inputType="phone" >
+                 </EditText>
+                 <LinearLayout
+                     android:id="@+id/list_tit"
+                     android:layout_width="fill_parent"
+                     android:layout_height="wrap_content"
+                     android:background="@color/list_title_color"
+                     android:orientation="horizontal"
+                     android:weightSum="3">
+                     <TextView
+                         android:layout_weight=".8"
+                         android:layout_marginLeft="10dp"
+                        android:id="@+id/r_mobile"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/ridio_yellow_lite"
+                        android:textStyle="bold"
+                        android:layout_marginRight="1dp"
+                        android:text="Mobile"
+                        android:textSize="22dp" />
+                      <TextView
+                android:layout_weight="1.4"
+                android:id="@+id/r_bike"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/ridio_yellow_lite"
+                android:textStyle="bold"
+                android:textSize="22dp"
+                android:text="Customer Name" />
+            <TextView
+                android:layout_weight=".8"
+                android:id="@+id/r_name"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:textColor="@color/ridio_yellow_lite"
+                android:textStyle="bold"
+                android:layout_marginRight="1dp"
+                android:text="Bike Number"
+                android:textSize="22dp" />
+
+                 </LinearLayout>
+        <ListView
+            android:id="@+id/list_return"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:dividerHeight="1dip"
+            android:background="#f5f1e2"
+            android:divider="@color/ridio_yellow_lite"
+            android:listSelector="@color/gray"
+            ></ListView>
+
+        <ImageView
+            android:id="@+id/thanks"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="20dp"
+            android:visibility="gone"
+            android:src="@drawable/thanks" />
+
+        </LinearLayout>
+        <Space
+            android:layout_width="10dp"
+        android:layout_height="wrap_content"/>
+         <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_marginLeft="20dp"
+        android:layout_marginBottom="30dp"
+        android:gravity="left"
+        android:orientation="vertical"
+        android:layout_weight=".8">
+             <ScrollView
+                 android:layout_width="fill_parent"
+                 android:layout_height="fill_parent">
+             <LinearLayout
+                 android:layout_width="fill_parent"
+                 android:layout_height="fill_parent"
+                 android:orientation="vertical">
+                 <LinearLayout
+                     android:id="@+id/nm_img_lyot"
+                     android:layout_width="fill_parent"
+                     android:layout_height="wrap_content"
+                     android:orientation="horizontal">
+                 <LinearLayout
+                     android:layout_width="0dp"
+                     android:layout_height="wrap_content"
+                     android:orientation="vertical"
+                     android:layout_marginRight="20dp"
+                     android:layout_weight="1">
+
+             <TextView
+                 android:id="@+id/name1"
+                 android:layout_width="wrap_content"
+                 android:layout_height="wrap_content"
+                 android:textSize="16dp"
+                 android:visibility="visible"
+                 android:textColor="#ffba00"
+                 android:text="Name" />
+
+             <EditText
+                 android:id="@+id/name"
+                 android:layout_width="fill_parent"
+                 android:layout_height="35dp"
+                 android:textSize="22dp"
+                 android:paddingLeft="5dp"
+                 android:imeOptions="flagNoExtractUi"
+                 android:background="@drawable/edittext_rect_yellow_border"
+                 android:enabled="false"
+                 android:visibility="visible"
+                 android:inputType="textPersonName" >
+
+             </EditText>
+                 </LinearLayout>
+                 <LinearLayout
+                     android:layout_width="0dp"
+                     android:layout_height="wrap_content"
+                     android:orientation="vertical"
+                     android:layout_weight="1">
+                     <ImageView
+                         android:id="@+id/cus_img"
+                         android:layout_width="fill_parent"
+                         android:layout_height="100dp"
+                         android:src="@drawable/user"/>
+
+                 </LinearLayout>
+                 </LinearLayout>
+            <TextView
+                 android:id="@+id/mobile1"
+                 android:layout_width="130dp"
+                 android:layout_height="wrap_content"
+                 android:textSize="16dp"
+                 android:visibility="visible"
+                 android:textColor="#ffba00"
+                 android:text="Mobile" />
+
+             <EditText
+                 android:id="@+id/mobile"
+                 android:layout_width="fill_parent"
+                 android:layout_height="35dp"
+                 android:textSize="22dp"
+                 android:imeOptions="flagNoExtractUi"
+                 android:paddingLeft="5dp"
+                 android:background="@drawable/edittext_rect_yellow_border"
+                 android:enabled="false"
+                 android:visibility="visible"
+                 android:inputType="phone" >
+
+             </EditText>
+            <TextView
+                 android:id="@+id/tbike"
+                 android:layout_width="130dp"
+                 android:layout_height="wrap_content"
+                 android:textSize="16dp"
+                 android:visibility="visible"
+                 android:textColor="#ffba00"
+                 android:text="Bike" />
+
+             <EditText
+                 android:id="@+id/bike"
+                 android:layout_width="fill_parent"
+                 android:layout_height="35dp"
+                 android:textSize="22dp"
+                 android:paddingLeft="5dp"
+                 android:imeOptions="flagNoExtractUi"
+                 android:background="@drawable/edittext_rect_yellow_border"
+                 android:enabled="false"
+                 android:visibility="visible"
+                 android:inputType="textEmailAddress" >
+
+             </EditText>
+
+             <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="2">
+            <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="20dp"
+            android:layout_weight="1">
+            <TextView
+                 android:id="@+id/tfrom"
+                 android:layout_width="130dp"
+                 android:layout_height="wrap_content"
+                 android:textSize="16dp"
+                 android:visibility="visible"
+                 android:textColor="#ffba00"
+                 android:text="From Date" />
+
+             <EditText
+                 android:id="@+id/from"
+                 android:layout_width="fill_parent"
+                 android:layout_height="35dp"
+                 android:textSize="22dp"
+                 android:paddingLeft="5dp"
+                 android:imeOptions="flagNoExtractUi"
+                 android:background="@drawable/edittext_rect_yellow_border"
+                 android:enabled="false"
+                 android:visibility="visible"
+                 android:inputType="textEmailAddress" >
+
+             </EditText>
+
+            </LinearLayout>
+            <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+            <TextView
+                 android:id="@+id/tto"
+                 android:layout_width="130dp"
+                 android:layout_height="wrap_content"
+                 android:textSize="16dp"
+                 android:visibility="visible"
+                 android:textColor="#ffba00"
+                 android:text="To Date" />
+
+             <EditText
+                 android:id="@+id/eto"
+                 android:layout_width="fill_parent"
+                 android:layout_height="35dp"
+                 android:textSize="22dp"
+                 android:paddingLeft="5dp"
+                 android:imeOptions="flagNoExtractUi"
+                 android:background="@drawable/edittext_rect_yellow_border"
+                 android:enabled="false"
+                 android:visibility="visible"
+                 android:inputType="textEmailAddress" >
+
+             </EditText>
+
+
+             </LinearLayout>
+            </LinearLayout>
+             <LinearLayout
+                 android:layout_width="fill_parent"
+                 android:layout_height="wrap_content"
+                 android:orientation="horizontal">
+                 <LinearLayout
+                     android:layout_width="0dp"
+                     android:layout_height="wrap_content"
+                     android:orientation="vertical"
+                     android:layout_weight="2">
+            <TextView
+                 android:id="@+id/textnd"
+                 android:layout_width="130dp"
+                 android:layout_height="wrap_content"
+                 android:textSize="16dp"
+                 android:visibility="visible"
+                 android:textColor="#ffba00"
+                 android:text="Extended Date" />
+
+             <EditText
+                 android:id="@+id/extend"
+                 android:layout_width="fill_parent"
+                 android:layout_height="35dp"
+                 android:textSize="22dp"
+                 android:paddingLeft="5dp"
+                 android:imeOptions="flagNoExtractUi"
+                 android:background="@drawable/edittext_rect_yellow_border"
+                 android:enabled="false"
+                 android:visibility="visible"
+                 android:inputType="textEmailAddress" >
+              </EditText>
+                     </LinearLayout>
+
+                 </LinearLayout>
+
+             <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+                 android:layout_marginBottom="20dp"
+            android:weightSum="2">
+                 <LinearLayout
+                     android:layout_width="0dp"
+                     android:layout_height="wrap_content"
+                     android:layout_marginRight="20dp"
+                     android:orientation="vertical"
+                     android:layout_weight="1">
+                     <TextView
+                         android:id="@+id/tdy"
+                         android:layout_width="130dp"
+                         android:layout_height="wrap_content"
+                         android:textSize="16dp"
+                         android:visibility="visible"
+                         android:textColor="#ffba00"
+                         android:text="Days" />
+
+                     <EditText
+                         android:id="@+id/tdays"
+                         android:layout_width="fill_parent"
+                         android:layout_height="35dp"
+                         android:textSize="22dp"
+                         android:paddingLeft="5dp"
+                         android:imeOptions="flagNoExtractUi"
+                         android:background="@drawable/edittext_rect_yellow_border"
+                         android:enabled="false"
+                         android:visibility="visible"
+                         android:inputType="number" >
+
+                     </EditText>
+                 </LinearLayout>
+
+            <LinearLayout
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_weight="1">
+             <TextView
+                 android:id="@+id/price1"
+                 android:layout_width="130dp"
+                 android:layout_height="wrap_content"
+                 android:textSize="16dp"
+                 android:visibility="visible"
+                 android:textColor="#ffba00"
+                 android:text="Price" />
+
+             <EditText
+                 android:id="@+id/price"
+                 android:layout_width="fill_parent"
+                 android:layout_height="35dp"
+                 android:textSize="22dp"
+                 android:paddingLeft="5dp"
+                 android:imeOptions="flagNoExtractUi"
+                 android:background="@drawable/edittext_rect_yellow_border"
+                 android:enabled="false"
+                 android:visibility="visible"
+                 android:inputType="number" >
+
+             </EditText>
+             </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+            <Button
+                android:id="@+id/ok"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:visibility="visible"
+                android:textSize="25dp"
+                android:text="Return Vehicle"
+                android:background="@drawable/press_effect_curved_rect"/>
+
+            <RatingBar
+                android:id="@+id/ratingBar1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="40dp"
+                android:visibility="gone"
+                android:background="#f5f1e2" />
+
+            <EditText
+                android:id="@+id/rating_comments"
+                android:layout_width="fill_parent"
+                android:layout_height="35dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="25dp"
+                android:textSize="22dp"
+                android:paddingLeft="5dp"
+                android:imeOptions="flagNoExtractUi"
+                android:background="@drawable/edittext_rect_yellow_border"
+                android:hint="Customer Feedback"
+                android:visibility="gone"
+                android:inputType="textPersonName" />
+            <Button
+                android:id="@+id/save"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:paddingLeft="25dp"
+                android:paddingRight="25dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textSize="25dp"
+                android:visibility="gone"
+                android:text="Done"
+                android:background="@drawable/press_effect_curved_rect"/>
+    </LinearLayout>
+         </LinearLayout>
+             </ScrollView>
+             </LinearLayout>
+        </LinearLayout>
+</LinearLayout>

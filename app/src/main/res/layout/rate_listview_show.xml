@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="right"
+    android:background="#f5f1e2"
+    android:orientation="vertical" >
+	<LinearLayout
+        android:weightSum="2"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:layout_marginTop="20dp"
+		android:orientation="horizontal"
+	    android:gravity="bottom|right" >
+		<ImageView
+			android:layout_weight=".25"
+			android:id="@+id/imageView1"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:layout_marginLeft="20dp"
+			android:src="@drawable/logo_yellow_small" />
+		<TextView
+			android:layout_weight="1.6"
+			android:id="@+id/textView"
+			android:layout_width="0dp"
+			android:layout_height="wrap_content"
+			android:gravity="center"
+			android:textColor="#ffba00"
+			android:textStyle="bold"
+			android:textSize="30dp"
+			android:text="Rate Master" />
+		<Button
+			android:layout_weight=".15"
+			android:id="@+id/popup_open"
+			android:layout_marginRight="15dp"
+			android:layout_width="0dp"
+			android:layout_height="35dp"
+			android:text="pop"/>
+         
+	</LinearLayout>
+	<LinearLayout
+		android:weightSum="2"
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:orientation="horizontal"
+		android:gravity="right" >
+		<EditText
+			android:id="@+id/input_on_list"
+			android:layout_width="200dp"
+			android:layout_height="40dp"
+			android:layout_marginRight="5dp"
+			android:imeOptions="flagNoExtractUi"
+			android:enabled="false"
+			android:visibility="gone"
+			android:paddingLeft="5dp"
+			android:textSize="22dp"
+			android:inputType="number"
+			android:digits="0123456789-"
+			android:maxLines="1"
+			android:textColor="@color/black"
+			android:background="@drawable/edittext_rect_yellow_border" />
+		<Button
+			android:id="@+id/return_rate_master"
+			android:layout_marginRight="15dp"
+			android:layout_width="70dp"
+			android:layout_height="40dp"
+			android:layout_marginBottom="10dp"
+			android:background="@drawable/press_effect_ratelist" />
+	</LinearLayout>
+   	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@color/list_title_color"
+	    android:orientation="horizontal"
+	    android:weightSum="5" >
+   		<TextView
+   		    android:layout_weight=".8"
+   		    android:id="@+id/textView2"
+   		    android:layout_width="0dp"
+   		    android:layout_height="wrap_content"
+   		    android:layout_marginLeft="10dp"
+   		    android:textColor="@color/listview_title_font"
+   		    android:textSize="24dp"
+   		    android:text="Rate ID" />
+   		<TextView
+   		    android:layout_weight="1"
+   		    android:id="@+id/textView7"
+   		    android:layout_width="0dp"
+   		    android:layout_height="wrap_content"
+   		    android:textColor="@color/listview_title_font"
+   		    android:textSize="24dp"
+   		    android:text="Small" />
+   		<TextView
+   		    android:layout_weight="1"
+   		    android:id="@+id/textView4"
+   		    android:layout_width="0dp"
+   		    android:layout_height="wrap_content"
+   		    android:textColor="@color/listview_title_font"
+   		    android:textSize="24dp"
+   		    android:text="Medium" />
+   		<TextView
+   		    android:layout_weight="1"
+   		    android:id="@+id/textView5"
+   		    android:layout_width="0dp"
+  		    android:layout_height="wrap_content"
+   		    android:textColor="@color/listview_title_font"
+   		    android:textSize="24dp"
+   		    android:text="High" />
+   		<TextView
+   		    android:layout_weight="1.2"
+   		    android:id="@+id/textView6"
+   		    android:layout_width="0dp"
+   		    android:layout_height="wrap_content"
+   		    android:layout_marginRight="10dp"
+   		    android:textColor="@color/listview_title_font"
+   		    android:textSize="24dp"
+   		    android:text="Date" />
+    </LinearLayout>
+	<ListView
+   		android:id="@+id/list_rate"
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent" 
+	    ></ListView>
+</LinearLayout>

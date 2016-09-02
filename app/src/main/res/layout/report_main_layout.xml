@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:weightSum="2" >
+    <LinearLayout
+        android:layout_weight=".4"
+        android:weightSum="2"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content">
+    <ImageView
+        android:layout_weight=".25"
+        android:id="@+id/imageView1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/logo_yellow_small" />
+        <TextView
+        android:layout_weight="1.4"    
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:textSize="30dp"
+        android:textColor="#ffba00"
+        android:layout_height="100dp"
+        android:text="REPORTS"
+        android:gravity="top|center"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+        </LinearLayout>
+    
+    <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="0dp"
+    android:gravity="bottom|center_horizontal"
+    android:layout_marginLeft="60dp"
+    android:layout_marginRight="60dp"
+    android:background="#FFFFFF"
+    android:orientation="horizontal"
+    android:layout_weight=".7"
+    android:weightSum="3" >
+
+    <Button
+        android:layout_weight="1"
+        android:id="@+id/past_booking"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/press_effect_report_main_button"
+        android:layout_marginRight="15dp"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/ridio_yellow"
+        android:text="Past\nBooking" />
+
+    <Button
+        android:layout_weight="1"
+        android:id="@+id/current_booking"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:background="@drawable/press_effect_report_main_button"
+        android:layout_marginRight="15dp"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/ridio_yellow"
+        android:text="Current\nBooking" />
+
+    <Button
+        android:layout_weight="1"
+        android:id="@+id/projected_revenue"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        android:textStyle="bold"
+        android:textSize="25dp"
+        android:background="@drawable/press_effect_report_main_button"
+        android:textColor="@color/ridio_yellow"
+        android:text="Future\nBooking" />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="30dp"
+    android:layout_width="fill_parent"
+    android:layout_marginLeft="60dp"
+    android:layout_marginRight="60dp"
+    android:layout_height="0dp"
+    android:gravity="top|left"
+    android:background="#FFFFFF"
+    android:orientation="horizontal"
+    android:layout_weight=".7"
+    android:weightSum="3" >
+
+    <Button
+        android:layout_weight="1"
+        android:id="@+id/average_occupancy"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/press_effect_report_main_button"
+        android:layout_marginRight="15dp"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:textColor="@color/ridio_yellow"
+        android:text="Occupancy\nReport" />
+
+    <Button
+        android:layout_weight="1"
+        android:id="@+id/occupancy_chart"
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="60dp"
+        android:background="@drawable/press_effect_report_main_button"
+        android:layout_marginRight="15dp"
+        android:textColor="@color/ridio_yellow"
+        android:textSize="25dp"
+        android:textStyle="bold"
+        android:text="Occupancy\nChart" />
+    <Button
+        android:layout_weight="1" 
+        android:layout_width="0dp"
+        android:layout_height="fill_parent"
+        android:layout_marginBottom="60dp"
+        android:background="@color/transparent"/>
+    </LinearLayout>
+
+
+
+</LinearLayout>

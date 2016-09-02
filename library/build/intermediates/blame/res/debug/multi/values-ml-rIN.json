@@ -1,0 +1,924 @@
+[
+    {
+        "outputFile": "/home/helixtech-android/Android Stuff/Android Projects Backup/Ridio 1.1/C:\\Users\\Nikhil\\AndroidStudioProjects\\RidioAndroidStudio_1\\library\\build\\intermediates\\res\\merged\\debug\\values-ml-rIN\\values-ml-rIN.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 118,
+                    "endOffset": 219
+                },
+                "from": {
+                    "file": "/home/helixtech-android/Android Stuff/Android Projects Backup/Ridio 1.1/C:\\Users\\Nikhil\\AndroidStudioProjects\\RidioAndroidStudio_1\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.1.0\\res\\values-ml-rIN\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 295,
+                        "endColumn": 118,
+                        "endOffset": 409
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 224,
+                    "endColumn": 117,
+                    "endOffset": 337
+                },
+                "from": {
+                    "file": "/home/helixtech-android/Android Stuff/Android Projects Backup/Ridio 1.1/C:\\Users\\Nikhil\\AndroidStudioProjects\\RidioAndroidStudio_1\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.1.0\\res\\values-ml-rIN\\values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 414,
+                        "endColumn": 117,
+                        "endOffset": 527
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 342,
+                    "endColumn": 115,
+                    "endOffset": 453
+                },
+                "from": {
+                    "file": "/home/helixtech-android/Android Stuff/Android Projects Backup/Ridio 1.1/C:\\Users\\Nikhil\\AndroidStudioProjects\\RidioAndroidStudio_1\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.1.0\\res\\values-ml-rIN\\values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 532,
+                        "endColumn": 115,
+                        "endOffset": 643
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 458,
+                    "endColumn": 92,
+                    "endOffset": 546
+                },
+                "from": {
+                    "file": "/home/helixtech-android/Android Stuff/Android Projects Backup/Ridio 1.1/C:\\Users\\Nikhil\\AndroidStudioProjects\\RidioAndroidStudio_1\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.1.0\\res\\values-ml-rIN\\values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 648,
+                        "endColumn": 92,
+                        "endOffset": 736
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 551,
+                    "endColumn": 104,
+                    "endOffset": 651
+                },
+                "from": {
+                    "file": "/home/helixtech-android/Android Stuff/Android Projects Backup/Ridio 1.1/C:\\Users\\Nikhil\\AndroidStudioProjects\\RidioAndroidStudio_1\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.1.0\\res\\values-ml-rIN\\values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 741,
+                        "endColumn": 104,
+                        "endOffset": 841
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 656,
+                    "endColumn": 131,
+                    "endOffset": 783
+                },
+                "from": {
+                    "file": "/home/helixtech-android/Android Stuff/Android Projects Backup/Ridio 1.1/C:\\Users\\Nikhil\\AndroidStudioProjects\\RidioAndroidStudio_1\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.1.0\\res\\values-ml-rIN\\values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 846,
+                        "endColumn": 131,
+                        "endOffset": 973
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 788,
+                    "endColumn": 110,
+                    "endOffset": 894
+                },
+                "from": {
+                    "file": "/home/helixtech-android/Android Stuff/Android Projects Backup/Ridio 1.1/C:\\Users\\Nikhil\\AndroidStudioProjects\\RidioAndroidStudio_1\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.1.0\\res\\values-ml-rIN\\values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 978,
+                        "endColumn": 110,
+                        "endOffset": 1084
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 899,
+                    "endColumn": 105,
+                    "endOffset": 1000
+                },
+                "from": {
+                    "file": "/home/helixtech-android/Android Stuff/Android Projects Backup/Ridio 1.1/C:\\Users\\Nikhil\\AndroidStudioProjects\\RidioAndroidStudio_1\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.1.0\\res\\values-ml-rIN\\values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1089,
+                        "endColumn": 105,
+                        "endOffset": 1190
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 1005,
+                    "endColumn": 97,
+                    "endOffset": 1098
+                },
+                "from": {
+                    "file": "/home/helixtech-android/Android Stuff/Android Projects Backup/Ridio 1.1/C:\\Users\\Nikhil\\AndroidStudioProjects\\RidioAndroidStudio_1\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.1.0\\res\\values-ml-rIN\\values.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1195,
+                        "endColumn": 97,
+                        "endOffset": 1288
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 1103,
+                    "endColumn": 113,
+                    "endOffset": 1212
+                },
+                "from": {
+                    "file": "/home/helixtech-android/Android Stuff/Android Projects Backup/Ridio 1.1/C:\\Users\\Nikhil\\AndroidStudioProjects\\RidioAndroidStudio_1\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.1.0\\res\\values-ml-rIN\\values.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1293,
+                        "endColumn": 113,
+                        "endOffset": 1402
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 1217,
+                    "endColumn": 103,
+                    "endOffset": 1316
+                },
+                "from": {
+                    "file": "/home/helixtech-android/Android Stuff/Android Projects Backup/Ridio 1.1/C:\\Users\\Nikhil\\AndroidStudioProjects\\RidioAndroidStudio_1\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.1.0\\res\\values-ml-rIN\\values.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1407,
+                        "endColumn": 103,
+                        "endOffset": 1506
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1321,
+                    "endColumn": 110,
+                    "endOffset": 1427
+                },
+                "from": {
+                    "file": "/home/helixtech-android/Android Stuff/Android Projects Backup/Ridio 1.1/C:\\Users\\Nikhil\\AndroidStudioProjects\\RidioAndroidStudio_1\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.1.0\\res\\values-ml-rIN\\values.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1511,
+                        "endColumn": 110,
+                        "endOffset": 1617
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1432,
+                    "endColumn": 127,
+                    "endOffset": 1555
+                },
+                "from": {
+                    "file": "/home/helixtech-android/Android Stuff/Android Projects Backup/Ridio 1.1/C:\\Users\\Nikhil\\AndroidStudioProjects\\RidioAndroidStudio_1\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.1.0\\res\\values-ml-rIN\\values.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1622,
+                        "endColumn": 127,
+                        "endOffset": 1745
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1560,
+                    "endColumn": 107,
+                    "endOffset": 1663
+                },
+                "from": {
+                    "file": "/home/helixtech-android/Android Stuff/Android Projects Backup/Ridio 1.1/C:\\Users\\Nikhil\\AndroidStudioProjects\\RidioAndroidStudio_1\\library\\res\\values-ml-rIN\\strings.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 1335,
+                        "endColumn": 107,
+                        "endOffset": 1438
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1668,
+                    "endColumn": 110,
+                    "endOffset": 1774
+                },
+                "from": {
+                    "file": "/home/helixtech-android/Android Stuff/Android Projects Backup/Ridio 1.1/C:\\Users\\Nikhil\\AndroidStudioProjects\\RidioAndroidStudio_1\\library\\res\\values-ml-rIN\\strings.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 1857,
+                        "endColumn": 114,
+                        "endOffset": 1967
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1779,
+                    "endColumn": 80,
+                    "endOffset": 1855
+                },
+                "from": {
+                    "file": "/home/helixtech-android/Android Stuff/Android Projects Backup/Ridio 1.1/C:\\Users\\Nikhil\\AndroidStudioProjects\\RidioAndroidStudio_1\\library\\res\\values-ml-rIN\\strings.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 809,
+                        "endColumn": 80,
+                        "endOffset": 885
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1860,
+                    "endColumn": 125,
+                    "endOffset": 1981
+                },
+                "from": {
+                    "file": "/home/helixtech-android/Android Stuff/Android Projects Backup/Ridio 1.1/C:\\Users\\Nikhil\\AndroidStudioProjects\\RidioAndroidStudio_1\\library\\res\\values-ml-rIN\\strings.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 890,
+                        "endColumn": 125,
+                        "endOffset": 1011
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1986,
+                    "endColumn": 118,
+                    "endOffset": 2100
+                },
+                "from": {
+                    "file": "/home/helixtech-android/Android Stuff/Android Projects Backup/Ridio 1.1/C:\\Users\\Nikhil\\AndroidStudioProjects\\RidioAndroidStudio_1\\library\\res\\values-ml-rIN\\strings.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 1734,
+                        "endColumn": 122,
+                        "endOffset": 1852
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 2105,
+                    "endColumn": 126,
+                    "endOffset": 2227
+                },
+                "from": {
+                    "file": "/home/helixtech-android/Android Stuff/Android Projects Backup/Ridio 1.1/C:\\Users\\Nikhil\\AndroidStudioProjects\\RidioAndroidStudio_1\\library\\res\\values-ml-rIN\\strings.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 1016,
+                        "endColumn": 126,
+                        "endOffset": 1138
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 2232,
+                    "endColumn": 98,
+                    "endOffset": 2326
+                },
+                "from": {
+                    "file": "/home/helixtech-android/Android Stuff/Android Projects Backup/Ridio 1.1/C:\\Users\\Nikhil\\AndroidStudioProjects\\RidioAndroidStudio_1\\library\\res\\values-ml-rIN\\strings.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 1545,
+                        "endColumn": 98,
+                        "endOffset": 1639
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 2331,
+                    "endColumn": 94,
+                    "endOffset": 2421
+                },
+                "from": {
+                    "file": "/home/helixtech-android/Android Stuff/Android Projects Backup/Ridio 1.1/C:\\Users\\Nikhil\\AndroidStudioProjects\\RidioAndroidStudio_1\\library\\res\\values-ml-rIN\\strings.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 1143,
+                        "endColumn": 94,
+                        "endOffset": 1233
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 2426,
+                    "endColumn": 96,
+                    "endOffset": 2518
+                },
+                "from": {
+                    "file": "/home/helixtech-android/Android Stuff/Android Projects Backup/Ridio 1.1/C:\\Users\\Nikhil\\AndroidStudioProjects\\RidioAndroidStudio_1\\library\\res\\values-ml-rIN\\strings.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 1238,
+                        "endColumn": 96,
+                        "endOffset": 1330
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 2523,
+                    "endColumn": 89,
+                    "endOffset": 2608
+                },
+                "from": {
+                    "file": "/home/helixtech-android/Android Stuff/Android Projects Backup/Ridio 1.1/C:\\Users\\Nikhil\\AndroidStudioProjects\\RidioAndroidStudio_1\\library\\res\\values-ml-rIN\\strings.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 1644,
+                        "endColumn": 89,
+                        "endOffset": 1729
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 2613,
+                    "endColumn": 101,
+                    "endOffset": 2710
+                },
+                "from": {
+                    "file": "/home/helixtech-android/Android Stuff/Android Projects Backup/Ridio 1.1/C:\\Users\\Nikhil\\AndroidStudioProjects\\RidioAndroidStudio_1\\library\\res\\values-ml-rIN\\strings.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 1443,
+                        "endColumn": 101,
+                        "endOffset": 1540
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/home/helixtech-android/Android Stuff/Android Projects Backup/Ridio 1.1/library/build/intermediates/res/merged/debug/values-ml-rIN/values-ml-rIN.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 105,
+                    "endColumn": 118,
+                    "endOffset": 219
+                },
+                "from": {
+                    "file": "/home/helixtech-android/Android Stuff/Android Projects Backup/Ridio 1.1/library/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.0/res/values-ml-rIN/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 295,
+                        "endColumn": 118,
+                        "endOffset": 409
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 224,
+                    "endColumn": 117,
+                    "endOffset": 337
+                },
+                "from": {
+                    "file": "/home/helixtech-android/Android Stuff/Android Projects Backup/Ridio 1.1/library/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.0/res/values-ml-rIN/values.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 414,
+                        "endColumn": 117,
+                        "endOffset": 527
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 342,
+                    "endColumn": 115,
+                    "endOffset": 453
+                },
+                "from": {
+                    "file": "/home/helixtech-android/Android Stuff/Android Projects Backup/Ridio 1.1/library/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.0/res/values-ml-rIN/values.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 532,
+                        "endColumn": 115,
+                        "endOffset": 643
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 458,
+                    "endColumn": 92,
+                    "endOffset": 546
+                },
+                "from": {
+                    "file": "/home/helixtech-android/Android Stuff/Android Projects Backup/Ridio 1.1/library/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.0/res/values-ml-rIN/values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 648,
+                        "endColumn": 92,
+                        "endOffset": 736
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 551,
+                    "endColumn": 104,
+                    "endOffset": 651
+                },
+                "from": {
+                    "file": "/home/helixtech-android/Android Stuff/Android Projects Backup/Ridio 1.1/library/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.0/res/values-ml-rIN/values.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 741,
+                        "endColumn": 104,
+                        "endOffset": 841
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 656,
+                    "endColumn": 131,
+                    "endOffset": 783
+                },
+                "from": {
+                    "file": "/home/helixtech-android/Android Stuff/Android Projects Backup/Ridio 1.1/library/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.0/res/values-ml-rIN/values.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 846,
+                        "endColumn": 131,
+                        "endOffset": 973
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 788,
+                    "endColumn": 110,
+                    "endOffset": 894
+                },
+                "from": {
+                    "file": "/home/helixtech-android/Android Stuff/Android Projects Backup/Ridio 1.1/library/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.0/res/values-ml-rIN/values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 978,
+                        "endColumn": 110,
+                        "endOffset": 1084
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 899,
+                    "endColumn": 105,
+                    "endOffset": 1000
+                },
+                "from": {
+                    "file": "/home/helixtech-android/Android Stuff/Android Projects Backup/Ridio 1.1/library/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.0/res/values-ml-rIN/values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 1089,
+                        "endColumn": 105,
+                        "endOffset": 1190
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 1005,
+                    "endColumn": 97,
+                    "endOffset": 1098
+                },
+                "from": {
+                    "file": "/home/helixtech-android/Android Stuff/Android Projects Backup/Ridio 1.1/library/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.0/res/values-ml-rIN/values.xml",
+                    "position": {
+                        "startLine": 12,
+                        "startColumn": 4,
+                        "startOffset": 1195,
+                        "endColumn": 97,
+                        "endOffset": 1288
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 1103,
+                    "endColumn": 113,
+                    "endOffset": 1212
+                },
+                "from": {
+                    "file": "/home/helixtech-android/Android Stuff/Android Projects Backup/Ridio 1.1/library/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.0/res/values-ml-rIN/values.xml",
+                    "position": {
+                        "startLine": 13,
+                        "startColumn": 4,
+                        "startOffset": 1293,
+                        "endColumn": 113,
+                        "endOffset": 1402
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 1217,
+                    "endColumn": 103,
+                    "endOffset": 1316
+                },
+                "from": {
+                    "file": "/home/helixtech-android/Android Stuff/Android Projects Backup/Ridio 1.1/library/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.0/res/values-ml-rIN/values.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1407,
+                        "endColumn": 103,
+                        "endOffset": 1506
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 1321,
+                    "endColumn": 110,
+                    "endOffset": 1427
+                },
+                "from": {
+                    "file": "/home/helixtech-android/Android Stuff/Android Projects Backup/Ridio 1.1/library/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.0/res/values-ml-rIN/values.xml",
+                    "position": {
+                        "startLine": 15,
+                        "startColumn": 4,
+                        "startOffset": 1511,
+                        "endColumn": 110,
+                        "endOffset": 1617
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 14,
+                    "startColumn": 4,
+                    "startOffset": 1432,
+                    "endColumn": 127,
+                    "endOffset": 1555
+                },
+                "from": {
+                    "file": "/home/helixtech-android/Android Stuff/Android Projects Backup/Ridio 1.1/library/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.0/res/values-ml-rIN/values.xml",
+                    "position": {
+                        "startLine": 16,
+                        "startColumn": 4,
+                        "startOffset": 1622,
+                        "endColumn": 127,
+                        "endOffset": 1745
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 15,
+                    "startColumn": 4,
+                    "startOffset": 1560,
+                    "endColumn": 107,
+                    "endOffset": 1663
+                },
+                "from": {
+                    "file": "/home/helixtech-android/Android Stuff/Android Projects Backup/Ridio 1.1/library/res/values-ml-rIN/strings.xml",
+                    "position": {
+                        "startLine": 24,
+                        "startColumn": 4,
+                        "startOffset": 1335,
+                        "endColumn": 107,
+                        "endOffset": 1438
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 16,
+                    "startColumn": 4,
+                    "startOffset": 1668,
+                    "endColumn": 110,
+                    "endOffset": 1774
+                },
+                "from": {
+                    "file": "/home/helixtech-android/Android Stuff/Android Projects Backup/Ridio 1.1/library/res/values-ml-rIN/strings.xml",
+                    "position": {
+                        "startLine": 29,
+                        "startColumn": 4,
+                        "startOffset": 1857,
+                        "endColumn": 114,
+                        "endOffset": 1967
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 17,
+                    "startColumn": 4,
+                    "startOffset": 1779,
+                    "endColumn": 80,
+                    "endOffset": 1855
+                },
+                "from": {
+                    "file": "/home/helixtech-android/Android Stuff/Android Projects Backup/Ridio 1.1/library/res/values-ml-rIN/strings.xml",
+                    "position": {
+                        "startLine": 19,
+                        "startColumn": 4,
+                        "startOffset": 809,
+                        "endColumn": 80,
+                        "endOffset": 885
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 18,
+                    "startColumn": 4,
+                    "startOffset": 1860,
+                    "endColumn": 125,
+                    "endOffset": 1981
+                },
+                "from": {
+                    "file": "/home/helixtech-android/Android Stuff/Android Projects Backup/Ridio 1.1/library/res/values-ml-rIN/strings.xml",
+                    "position": {
+                        "startLine": 20,
+                        "startColumn": 4,
+                        "startOffset": 890,
+                        "endColumn": 125,
+                        "endOffset": 1011
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 19,
+                    "startColumn": 4,
+                    "startOffset": 1986,
+                    "endColumn": 118,
+                    "endOffset": 2100
+                },
+                "from": {
+                    "file": "/home/helixtech-android/Android Stuff/Android Projects Backup/Ridio 1.1/library/res/values-ml-rIN/strings.xml",
+                    "position": {
+                        "startLine": 28,
+                        "startColumn": 4,
+                        "startOffset": 1734,
+                        "endColumn": 122,
+                        "endOffset": 1852
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 20,
+                    "startColumn": 4,
+                    "startOffset": 2105,
+                    "endColumn": 126,
+                    "endOffset": 2227
+                },
+                "from": {
+                    "file": "/home/helixtech-android/Android Stuff/Android Projects Backup/Ridio 1.1/library/res/values-ml-rIN/strings.xml",
+                    "position": {
+                        "startLine": 21,
+                        "startColumn": 4,
+                        "startOffset": 1016,
+                        "endColumn": 126,
+                        "endOffset": 1138
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 21,
+                    "startColumn": 4,
+                    "startOffset": 2232,
+                    "endColumn": 98,
+                    "endOffset": 2326
+                },
+                "from": {
+                    "file": "/home/helixtech-android/Android Stuff/Android Projects Backup/Ridio 1.1/library/res/values-ml-rIN/strings.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 1545,
+                        "endColumn": 98,
+                        "endOffset": 1639
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 22,
+                    "startColumn": 4,
+                    "startOffset": 2331,
+                    "endColumn": 94,
+                    "endOffset": 2421
+                },
+                "from": {
+                    "file": "/home/helixtech-android/Android Stuff/Android Projects Backup/Ridio 1.1/library/res/values-ml-rIN/strings.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 1143,
+                        "endColumn": 94,
+                        "endOffset": 1233
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 23,
+                    "startColumn": 4,
+                    "startOffset": 2426,
+                    "endColumn": 96,
+                    "endOffset": 2518
+                },
+                "from": {
+                    "file": "/home/helixtech-android/Android Stuff/Android Projects Backup/Ridio 1.1/library/res/values-ml-rIN/strings.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 1238,
+                        "endColumn": 96,
+                        "endOffset": 1330
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 24,
+                    "startColumn": 4,
+                    "startOffset": 2523,
+                    "endColumn": 89,
+                    "endOffset": 2608
+                },
+                "from": {
+                    "file": "/home/helixtech-android/Android Stuff/Android Projects Backup/Ridio 1.1/library/res/values-ml-rIN/strings.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 1644,
+                        "endColumn": 89,
+                        "endOffset": 1729
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 25,
+                    "startColumn": 4,
+                    "startOffset": 2613,
+                    "endColumn": 101,
+                    "endOffset": 2710
+                },
+                "from": {
+                    "file": "/home/helixtech-android/Android Stuff/Android Projects Backup/Ridio 1.1/library/res/values-ml-rIN/strings.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 1443,
+                        "endColumn": 101,
+                        "endOffset": 1540
+                    }
+                }
+            }
+        ]
+    }
+]

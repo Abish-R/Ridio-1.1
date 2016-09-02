@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#ffba00"
+    android:orientation="vertical"
+    android:weightSum="5" >
+
+    <ImageView
+        android:layout_weight=".5"
+        android:id="@+id/imageView1"
+        android:layout_width="100dp"
+        android:layout_height="0dp"
+        android:src="@drawable/logo_black_small" 
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_weight=".3"
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:text="Manage your fleet on the go"
+        android:textSize="22dp"
+        android:textStyle="bold"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginBottom="10dp" />
+
+    <ImageView
+        android:layout_weight="1.5"
+        android:id="@+id/imageView2"
+        android:layout_width="170dp"
+        android:layout_height="0dp"
+        android:src="@drawable/login_page_img" />
+     <Space
+        android:layout_weight=".5"
+    android:layout_width="wrap_content"
+    android:layout_height="0dp" />
+
+    <Button
+        android:layout_weight=".4"
+        android:id="@+id/signin"
+        android:layout_width="250dp"
+        android:layout_height="0dp"
+        android:text="Sign in                             >" 
+        android:textSize="21dp" 
+        android:textColor="#FFFFFF" 
+        android:background="@drawable/press_effect_rect"
+        android:layout_gravity="center"/>
+    <Space
+        android:layout_weight=".1"
+    android:layout_width="wrap_content"
+    android:layout_height="0dp" />
+	<Button
+	    android:layout_weight=".4"
+        android:id="@+id/signup"
+        android:layout_width="250dp"
+        android:layout_height="0dp"
+        android:text="Sign Up as a Vendor     >" 
+        android:textSize="21dp" 
+        android:textColor="#FFFFFF"        
+        android:background="@drawable/press_effect_rect"
+        android:layout_gravity="center"/>
+	<Space
+        android:layout_weight=".5"
+    android:layout_width="wrap_content"
+    android:layout_height="0dp" />
+    
+</LinearLayout>

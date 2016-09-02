@@ -1,0 +1,299 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical" >
+    <LinearLayout
+        android:id="@+id/header_layout"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    </LinearLayout>
+    <LinearLayout
+
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+   		 android:layout_marginRight="20dp"
+    	android:layout_marginTop="30dp"
+    	android:layout_marginBottom="15dp"
+    	android:orientation="horizontal"
+    	android:gravity="bottom"
+    	android:weightSum="2">
+    	<ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_weight=".25"
+        android:src="@drawable/logo_yellow_small" />
+       <TextView
+           android:layout_weight="1.4"
+           android:gravity="center"
+        android:id="@+id/heading"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Occupancy Report"
+		android:textSize="30dp"
+        android:textStyle="bold"
+        android:textColor="#ffba00" />
+       </LinearLayout>   
+    
+    <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginLeft="20dp"
+    android:layout_marginRight="20dp"
+    android:layout_marginBottom="10dp"
+    android:orientation="horizontal"
+    android:gravity="center"
+    android:weightSum="3" >
+    
+    <Spinner
+        android:id="@+id/week_month"
+        android:spinnerMode="dropdown" 
+        android:dropDownWidth="fill_parent" 
+        android:paddingLeft="5dp" 
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight=".45"
+        android:background="@drawable/spinner_press"
+        android:popupBackground="#e6ad00" />
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="3dp"
+        android:layout_height="50dp"
+        android:src="@drawable/drop_icon1"
+        android:layout_marginRight="10dp" 
+        android:background="@color/spinner_default_color"
+        android:layout_weight=".05" />
+    <LinearLayout 
+        android:id="@+id/week_layout"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="2"
+    android:weightSum="4"
+    android:visibility="visible">
+
+    <EditText
+        android:id="@+id/from_date"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:paddingLeft="5dp"
+        android:layout_weight="1.6"
+        android:enabled="false"
+        android:background="@drawable/edittext_rect_yellow_border" >
+    </EditText>
+
+    <ImageButton
+        android:id="@+id/img_from"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight=".35"
+        android:background="@drawable/press_effect_calendar" />
+
+    <EditText
+        android:id="@+id/to_date"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:paddingLeft="5dp"
+        android:layout_weight="1.6"
+        android:enabled="false"
+        android:background="@drawable/edittext_rect_yellow_border"
+        android:layout_marginLeft="20dp"
+        android:inputType="textPersonName" />
+
+    <ImageButton
+        android:id="@+id/img_to"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight=".35"
+        android:background="@drawable/press_effect_calendar" />
+    </LinearLayout>
+    <LinearLayout 
+        android:id="@+id/month_layout"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="2"
+    android:weightSum="4"
+    android:visibility="gone"
+    >
+    <Spinner
+        android:id="@+id/from_year"
+        android:spinnerMode="dropdown"
+        android:dropDownWidth="fill_parent"
+        
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight=".75"
+        android:background="@drawable/spinner_press"
+        android:popupBackground="#e6ad00" />
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="7dp"
+        android:layout_height="50dp"
+        android:src="@drawable/drop_icon1"
+        android:layout_marginRight="5dp"
+        android:background="@color/spinner_default_color"
+        android:layout_weight=".05" />
+
+    <Spinner
+        android:id="@+id/from_month"
+        android:spinnerMode="dropdown"
+        android:dropDownWidth="fill_parent"
+        
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="1.15"
+        android:background="@drawable/spinner_press"
+        android:popupBackground="#e6ad00" />
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="7dp"
+        android:layout_height="50dp"
+        android:src="@drawable/drop_icon1"
+        android:layout_marginRight="10dp"
+        android:background="@color/spinner_default_color"
+        android:layout_weight=".05" />
+    
+    <Spinner
+        android:id="@+id/to_year"
+        android:spinnerMode="dropdown"
+        android:dropDownWidth="fill_parent"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight=".75"
+        android:background="@drawable/spinner_press"
+        android:popupBackground="#e6ad00" />
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="7dp"
+        android:layout_height="50dp"
+        android:src="@drawable/drop_icon1"
+        android:layout_marginRight="5dp"
+        android:background="@color/spinner_default_color"
+        android:layout_weight=".05" />
+
+    <Spinner
+        android:id="@+id/to_month"
+        android:spinnerMode="dropdown"
+        android:dropDownWidth="fill_parent"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:layout_weight="1.15"
+        android:background="@drawable/spinner_press"
+        android:popupBackground="#e6ad00" />
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="7dp"
+        android:layout_height="50dp"
+        android:src="@drawable/drop_icon1"
+        android:background="@color/spinner_default_color"
+        android:layout_weight=".05" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/go"
+        android:layout_width="0dp"
+        android:layout_height="50dp"
+        android:textSize="30sp"
+        android:layout_marginLeft="20dp"
+        android:text="Go"
+        android:layout_weight=".5"
+        android:background="@drawable/press_effect_curved_rect" />
+    </LinearLayout>
+
+ 
+
+    <LinearLayout 
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    
+    
+    android:layout_marginTop="30dp"
+    android:layout_marginBottom="10dp">
+    <LinearLayout
+        android:id="@+id/title_layout"
+        android:visibility="gone"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/list_title_color"
+    android:orientation="horizontal"
+    android:weightSum="6" >
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/ttd"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:textSize="22dp"
+        android:textColor="@color/ridio_yellow_lite"
+        android:layout_marginRight="1dp"
+        android:text="Based On" />
+    <TextView
+        android:layout_weight=".8"
+        android:id="@+id/tdp"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+        android:textColor="@color/ridio_yellow_lite"
+        android:layout_marginRight="1dp"
+        android:text="Period" />
+    <TextView
+        android:layout_weight=".5"
+        android:id="@+id/tdp1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+        android:textColor="@color/ridio_yellow_lite"
+        android:layout_marginRight="1dp"
+        android:text="Days" />
+    <TextView
+        android:layout_weight=".7"
+        android:id="@+id/tbd"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+        android:textColor="@color/ridio_yellow_lite"
+        android:layout_marginRight="1dp"
+        android:text="Vehicles" />
+    <TextView
+        android:layout_weight="1.1"
+        android:id="@+id/tnm1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="22dp"
+        android:textColor="@color/ridio_yellow_lite"
+        android:layout_marginRight="1dp"
+        android:text="Vehicle Rented" />
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/tid1"
+        android:layout_width="0dp"
+        android:textSize="22dp"
+        android:textColor="@color/ridio_yellow_lite"
+        android:layout_marginRight="10dp"
+        android:layout_height="wrap_content"
+        android:text="Rented %" />
+    <TextView
+        android:layout_weight=".9"
+        android:id="@+id/tid2"
+        android:layout_width="0dp"
+        android:textSize="22dp"
+        android:textColor="@color/ridio_yellow_lite"
+        android:layout_marginRight="10dp"
+        android:layout_height="wrap_content"
+        android:text="Revenue" />
+    
+     </LinearLayout>
+        <ListView 
+            android:id="@+id/list_occupation_report"
+    		android:layout_width="fill_parent"
+    		android:layout_height="wrap_content"
+    		android:dividerHeight="1dip"
+	      	android:divider="@color/ridio_yellow_lite"></ListView>
+    </LinearLayout>
+
+</LinearLayout>

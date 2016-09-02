@@ -1,0 +1,468 @@
+[
+    {
+        "outputFile": "/home/helixtech-android/Android Stuff/Android Projects Backup/Ridio 1.1/library/build/intermediates/res/merged/release/values-land/values-land.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 61,
+                    "endOffset": 112
+                },
+                "from": {
+                    "file": "/home/helixtech-android/Android Stuff/Android Projects Backup/Ridio 1.1/library/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.0/res/values-land/values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 291,
+                        "endColumn": 61,
+                        "endOffset": 348
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 117,
+                    "endColumn": 71,
+                    "endOffset": 184
+                },
+                "from": {
+                    "file": "/home/helixtech-android/Android Stuff/Android Projects Backup/Ridio 1.1/library/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.0/res/values-land/values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 590,
+                        "endColumn": 71,
+                        "endOffset": 657
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 189,
+                    "endColumn": 69,
+                    "endOffset": 254
+                },
+                "from": {
+                    "file": "/home/helixtech-android/Android Stuff/Android Projects Backup/Ridio 1.1/library/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.0/res/values-land/values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 908,
+                        "endColumn": 69,
+                        "endOffset": 973
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 259,
+                    "endColumn": 69,
+                    "endOffset": 324
+                },
+                "from": {
+                    "file": "/home/helixtech-android/Android Stuff/Android Projects Backup/Ridio 1.1/library/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.0/res/values-land/values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 978,
+                        "endColumn": 69,
+                        "endOffset": 1043
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 329,
+                    "endColumn": 63,
+                    "endOffset": 388
+                },
+                "from": {
+                    "file": "/home/helixtech-android/Android Stuff/Android Projects Backup/Ridio 1.1/library/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.0/res/values-land/values.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1285,
+                        "endColumn": 63,
+                        "endOffset": 1344
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 393,
+                    "endColumn": 70,
+                    "endOffset": 459
+                },
+                "from": {
+                    "file": "/home/helixtech-android/Android Stuff/Android Projects Backup/Ridio 1.1/library/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.0/res/values-land/values.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1595,
+                        "endColumn": 70,
+                        "endOffset": 1661
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 464,
+                    "endColumn": 67,
+                    "endOffset": 527
+                },
+                "from": {
+                    "file": "/home/helixtech-android/Android Stuff/Android Projects Backup/Ridio 1.1/library/build/intermediates/exploded-aar/com.android.support/appcompat-v7/22.1.0/res/values-land/values.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1666,
+                        "endColumn": 67,
+                        "endOffset": 1729
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 532,
+                    "endColumn": 46,
+                    "endOffset": 574
+                },
+                "from": {
+                    "file": "/home/helixtech-android/Android Stuff/Android Projects Backup/Ridio 1.1/library/res/values-land/dimens.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 800,
+                        "endColumn": 46,
+                        "endOffset": 842
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 579,
+                    "endColumn": 48,
+                    "endOffset": 623
+                },
+                "from": {
+                    "file": "/home/helixtech-android/Android Stuff/Android Projects Backup/Ridio 1.1/library/res/values-land/dimens.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 847,
+                        "endColumn": 48,
+                        "endOffset": 891
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 628,
+                    "endColumn": 54,
+                    "endOffset": 678
+                },
+                "from": {
+                    "file": "/home/helixtech-android/Android Stuff/Android Projects Backup/Ridio 1.1/library/res/values-land/dimens.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 952,
+                        "endColumn": 54,
+                        "endOffset": 1002
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 683,
+                    "endColumn": 55,
+                    "endOffset": 734
+                },
+                "from": {
+                    "file": "/home/helixtech-android/Android Stuff/Android Projects Backup/Ridio 1.1/library/res/values-land/dimens.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 1007,
+                        "endColumn": 55,
+                        "endOffset": 1058
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 739,
+                    "endColumn": 54,
+                    "endOffset": 789
+                },
+                "from": {
+                    "file": "/home/helixtech-android/Android Stuff/Android Projects Backup/Ridio 1.1/library/res/values-land/dimens.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 897,
+                        "endColumn": 54,
+                        "endOffset": 947
+                    }
+                }
+            }
+        ]
+    },
+    {
+        "outputFile": "/home/helixtech-android/Android Stuff/Android Projects Backup/Ridio 1.1/C:\\Users\\Nikhil\\AndroidStudioProjects\\RidioAndroidStudio_1\\library\\build\\intermediates\\res\\merged\\release\\values-land\\values-land.xml",
+        "map": [
+            {
+                "to": {
+                    "startLine": 2,
+                    "startColumn": 4,
+                    "startOffset": 55,
+                    "endColumn": 61,
+                    "endOffset": 112
+                },
+                "from": {
+                    "file": "/home/helixtech-android/Android Stuff/Android Projects Backup/Ridio 1.1/C:\\Users\\Nikhil\\AndroidStudioProjects\\RidioAndroidStudio_1\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.1.0\\res\\values-land\\values.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 291,
+                        "endColumn": 61,
+                        "endOffset": 348
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 3,
+                    "startColumn": 4,
+                    "startOffset": 117,
+                    "endColumn": 71,
+                    "endOffset": 184
+                },
+                "from": {
+                    "file": "/home/helixtech-android/Android Stuff/Android Projects Backup/Ridio 1.1/C:\\Users\\Nikhil\\AndroidStudioProjects\\RidioAndroidStudio_1\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.1.0\\res\\values-land\\values.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 590,
+                        "endColumn": 71,
+                        "endOffset": 657
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 4,
+                    "startColumn": 4,
+                    "startOffset": 189,
+                    "endColumn": 69,
+                    "endOffset": 254
+                },
+                "from": {
+                    "file": "/home/helixtech-android/Android Stuff/Android Projects Backup/Ridio 1.1/C:\\Users\\Nikhil\\AndroidStudioProjects\\RidioAndroidStudio_1\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.1.0\\res\\values-land\\values.xml",
+                    "position": {
+                        "startLine": 10,
+                        "startColumn": 4,
+                        "startOffset": 908,
+                        "endColumn": 69,
+                        "endOffset": 973
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 5,
+                    "startColumn": 4,
+                    "startOffset": 259,
+                    "endColumn": 69,
+                    "endOffset": 324
+                },
+                "from": {
+                    "file": "/home/helixtech-android/Android Stuff/Android Projects Backup/Ridio 1.1/C:\\Users\\Nikhil\\AndroidStudioProjects\\RidioAndroidStudio_1\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.1.0\\res\\values-land\\values.xml",
+                    "position": {
+                        "startLine": 11,
+                        "startColumn": 4,
+                        "startOffset": 978,
+                        "endColumn": 69,
+                        "endOffset": 1043
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 6,
+                    "startColumn": 4,
+                    "startOffset": 329,
+                    "endColumn": 63,
+                    "endOffset": 388
+                },
+                "from": {
+                    "file": "/home/helixtech-android/Android Stuff/Android Projects Backup/Ridio 1.1/C:\\Users\\Nikhil\\AndroidStudioProjects\\RidioAndroidStudio_1\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.1.0\\res\\values-land\\values.xml",
+                    "position": {
+                        "startLine": 14,
+                        "startColumn": 4,
+                        "startOffset": 1285,
+                        "endColumn": 63,
+                        "endOffset": 1344
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 7,
+                    "startColumn": 4,
+                    "startOffset": 393,
+                    "endColumn": 70,
+                    "endOffset": 459
+                },
+                "from": {
+                    "file": "/home/helixtech-android/Android Stuff/Android Projects Backup/Ridio 1.1/C:\\Users\\Nikhil\\AndroidStudioProjects\\RidioAndroidStudio_1\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.1.0\\res\\values-land\\values.xml",
+                    "position": {
+                        "startLine": 17,
+                        "startColumn": 4,
+                        "startOffset": 1595,
+                        "endColumn": 70,
+                        "endOffset": 1661
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 8,
+                    "startColumn": 4,
+                    "startOffset": 464,
+                    "endColumn": 67,
+                    "endOffset": 527
+                },
+                "from": {
+                    "file": "/home/helixtech-android/Android Stuff/Android Projects Backup/Ridio 1.1/C:\\Users\\Nikhil\\AndroidStudioProjects\\RidioAndroidStudio_1\\library\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\22.1.0\\res\\values-land\\values.xml",
+                    "position": {
+                        "startLine": 18,
+                        "startColumn": 4,
+                        "startOffset": 1666,
+                        "endColumn": 67,
+                        "endOffset": 1729
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 9,
+                    "startColumn": 4,
+                    "startOffset": 532,
+                    "endColumn": 46,
+                    "endOffset": 574
+                },
+                "from": {
+                    "file": "/home/helixtech-android/Android Stuff/Android Projects Backup/Ridio 1.1/C:\\Users\\Nikhil\\AndroidStudioProjects\\RidioAndroidStudio_1\\library\\res\\values-land\\dimens.xml",
+                    "position": {
+                        "startLine": 22,
+                        "startColumn": 4,
+                        "startOffset": 800,
+                        "endColumn": 46,
+                        "endOffset": 842
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 10,
+                    "startColumn": 4,
+                    "startOffset": 579,
+                    "endColumn": 48,
+                    "endOffset": 623
+                },
+                "from": {
+                    "file": "/home/helixtech-android/Android Stuff/Android Projects Backup/Ridio 1.1/C:\\Users\\Nikhil\\AndroidStudioProjects\\RidioAndroidStudio_1\\library\\res\\values-land\\dimens.xml",
+                    "position": {
+                        "startLine": 23,
+                        "startColumn": 4,
+                        "startOffset": 847,
+                        "endColumn": 48,
+                        "endOffset": 891
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 11,
+                    "startColumn": 4,
+                    "startOffset": 628,
+                    "endColumn": 54,
+                    "endOffset": 678
+                },
+                "from": {
+                    "file": "/home/helixtech-android/Android Stuff/Android Projects Backup/Ridio 1.1/C:\\Users\\Nikhil\\AndroidStudioProjects\\RidioAndroidStudio_1\\library\\res\\values-land\\dimens.xml",
+                    "position": {
+                        "startLine": 26,
+                        "startColumn": 4,
+                        "startOffset": 952,
+                        "endColumn": 54,
+                        "endOffset": 1002
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 12,
+                    "startColumn": 4,
+                    "startOffset": 683,
+                    "endColumn": 55,
+                    "endOffset": 734
+                },
+                "from": {
+                    "file": "/home/helixtech-android/Android Stuff/Android Projects Backup/Ridio 1.1/C:\\Users\\Nikhil\\AndroidStudioProjects\\RidioAndroidStudio_1\\library\\res\\values-land\\dimens.xml",
+                    "position": {
+                        "startLine": 27,
+                        "startColumn": 4,
+                        "startOffset": 1007,
+                        "endColumn": 55,
+                        "endOffset": 1058
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 13,
+                    "startColumn": 4,
+                    "startOffset": 739,
+                    "endColumn": 54,
+                    "endOffset": 789
+                },
+                "from": {
+                    "file": "/home/helixtech-android/Android Stuff/Android Projects Backup/Ridio 1.1/C:\\Users\\Nikhil\\AndroidStudioProjects\\RidioAndroidStudio_1\\library\\res\\values-land\\dimens.xml",
+                    "position": {
+                        "startLine": 25,
+                        "startColumn": 4,
+                        "startOffset": 897,
+                        "endColumn": 54,
+                        "endOffset": 947
+                    }
+                }
+            }
+        ]
+    }
+]

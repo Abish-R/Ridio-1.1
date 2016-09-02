@@ -1,0 +1,76 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#ffba00"
+    android:paddingBottom="5dp"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".SplashScreen"
+    android:orientation="vertical"
+    android:gravity="center" >
+    <View
+        android:layout_weight=".2"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"/>
+
+    <ImageView
+        android:id="@+id/imageView1"
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".3"
+        android:src="@drawable/logo1" />
+    <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="0dp"
+    android:orientation="horizontal"
+        android:layout_weight=".3"
+    android:gravity="center_horizontal">
+	<TextView
+        android:id="@+id/helix_textf"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:textStyle="bold"
+        android:textSize="@dimen/splash_text"
+        android:textColor="#252525"
+        android:text="FLEET MANAGER"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".2"
+        android:orientation="horizontal"
+        android:gravity="center_horizontal|bottom">
+    <TextView
+        android:id="@+id/helix_made_with"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:textStyle="bold"
+        android:textSize="@dimen/splash_foot_text"
+        android:textColor="#FFFFFF"
+        android:text="Made with " />
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="40dp"
+        android:layout_height="@dimen/splash_foot_text"
+        android:src="@drawable/pride" />
+    <TextView
+        android:id="@+id/helix_at"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:textStyle="bold"
+        android:textSize="@dimen/splash_foot_text"
+        android:textColor="#FFFFFF"
+        android:text=" at Helix Tech" />
+    
+    </LinearLayout>
+</LinearLayout>

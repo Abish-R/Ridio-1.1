@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+	<LinearLayout 
+	    android:id="@+id/cus_layout"
+	    android:layout_width="fill_parent"
+	    android:layout_height="25dp"
+	    android:orientation="horizontal"
+    	android:weightSum="8" >
+    <TextView
+        android:layout_weight="0"
+        android:id="@+id/id"
+        android:layout_width="0dp"
+        android:textSize="14dp"
+        android:textColor="@color/black"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:text="Text" />
+
+    <TextView
+        android:layout_weight="1.4"
+        android:id="@+id/nm"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:textColor="@color/black"
+        android:text="TextView" />
+
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/mob"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:textColor="@color/black"
+        android:text="9999999999" />
+
+    <!--TextView
+        android:layout_weight="1.3"
+        android:id="@+id/eml"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:textColor="@color/black"
+        android:layout_marginRight="1dp"
+        android:text="TextView" /-->
+
+    <TextView
+        android:layout_weight="1"
+        android:id="@+id/bk_no"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:textColor="@color/black"
+        android:text="AA-44-ew1234" />
+
+    <TextView
+        android:layout_weight=".4"
+        android:id="@+id/dy_rt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:textColor="@color/black"
+        android:gravity="center_horizontal"
+        android:text="900" />
+
+    <TextView
+        android:layout_weight="1.05"
+        android:id="@+id/frm"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:textColor="@color/black"
+        android:text="2016-02-02" />
+
+    <TextView
+        android:layout_weight="1.05"
+        android:id="@+id/to"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="16dp"
+        android:textColor="@color/black"
+        android:text="2016-02-02" />
+
+    <TextView
+        android:layout_weight=".45"
+        android:id="@+id/dy"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:textColor="@color/black"
+        android:layout_marginRight="1dp"
+        android:gravity="center_horizontal"
+        android:text="Te" />
+
+    
+
+    <TextView
+        android:layout_weight="0"
+        android:id="@+id/vid"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="14dp"
+        android:textColor="@color/black"
+        android:layout_marginRight="1dp"
+        android:text="V_id" />
+
+    <TextView
+        android:layout_weight=".9"
+        android:id="@+id/book_dt"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:textColor="@color/black"
+        android:text="2016-02-02" />
+    <!--TextView
+        android:layout_weight=".5"
+        android:id="@+id/rting"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:textColor="@color/black"
+        android:layout_marginRight="10dp"
+        android:text="Tex" /-->
+    <TextView
+        android:layout_weight=".65"
+        android:id="@+id/cst"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textSize="17dp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:gravity="right"
+        android:text="Total cost" />
+
+</LinearLayout>
+</LinearLayout>

@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical" >
+<LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_marginTop="20dp"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+    <LinearLayout
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:layout_marginTop="10dp"
+    android:layout_marginBottom="30dp"
+    android:gravity="bottom"
+    android:orientation="horizontal"
+    android:weightSum="2" >
+
+    <ImageView
+        android:layout_weight=".25"
+        android:id="@+id/imageView1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:src="@drawable/logo_yellow_small" />
+
+    <TextView
+        android:layout_weight="1.45"
+        android:id="@+id/sync_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:textColor="#ffba00"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="Synchronization"
+        android:textSize="30dp"
+        android:textAppearance="?android:attr/textAppearanceLarge" />
+    </LinearLayout>
+
+    
+
+    <TextView
+        android:id="@+id/sync_decrip"
+         android:textColor="#ffba00"
+         android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="sync" />
+
+    <ProgressBar
+        android:id="@+id/sync_progress"
+        style="?android:attr/progressBarStyleHorizontal"
+        android:layout_width="400dp"
+        android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/btn_sync"
+        android:layout_marginTop="25dp"
+        android:textSize="27dp"
+        android:layout_width="170dp"
+        android:layout_height="50dp"        
+        android:text="Sync"
+        android:background="@drawable/press_effect_curved_rect" />
+
+    <!--Button
+        android:id="@+id/sync_done"
+        android:layout_marginTop="25dp"
+        android:textSize="25dp"
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:text="Done"
+        android:background="@drawable/press_effect_curved_rect" /-->
+
+</LinearLayout>
+</LinearLayout>

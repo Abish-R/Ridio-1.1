@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="#ffba00"
+    android:orientation="vertical"
+    android:weightSum="4" >
+    <LinearLayout
+        android:layout_weight=".9"
+    android:layout_width="fill_parent"
+    android:layout_height="0dp"
+    android:layout_marginTop="20dp"
+    android:orientation="horizontal"
+    android:weightSum="2">
+
+        <ImageView
+            android:layout_weight=".25"
+            android:id="@+id/imageView1"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:src="@drawable/logo_small"
+            android:layout_marginLeft="30dp" />
+
+    <TextView
+        android:layout_weight="1.45"
+        android:id="@+id/textView1"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:text="Sign In"
+        android:textSize="35dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:layout_marginTop="20dp" />
+    </LinearLayout>
+    <Space
+        android:layout_weight=".8"
+    android:layout_width="wrap_content"
+    android:layout_height="0dp" />
+
+    <EditText
+        android:layout_weight=".4"
+        android:id="@+id/uname"
+        android:layout_width="400dp"
+        android:layout_height="0dp"
+        android:inputType="textPersonName" 
+    	android:gravity="center"
+    	android:imeOptions="flagNoExtractUi"
+        android:background="@drawable/login_edittext"
+        android:hint="Username"
+        android:textColorHint="#FFFFFF"
+        android:digits="abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890"
+        android:maxLength="20"
+        android:text="abi"
+        android:textColor="#FFFFFF">
+         </EditText>
+    <Space
+        android:layout_weight=".2"
+    android:layout_width="wrap_content"
+    android:layout_height="0dp" />
+
+    <EditText
+        android:layout_weight=".4"
+        android:id="@+id/pass"
+        android:layout_width="400dp"
+        android:layout_height="0dp"
+        android:maxLength="20"
+        android:inputType="textPassword" 
+        android:gravity="center"
+    	android:imeOptions="flagNoExtractUi"
+    	android:text="qwe"
+        android:background="@drawable/login_edittext"
+        android:hint="Password"
+        android:textColorHint="#FFFFFF"
+        android:textColor="#FFFFFF"/>
+
+<Space
+    android:layout_weight=".3"
+    android:layout_width="wrap_content"
+    android:layout_height="0dp" />
+    <Button
+        android:layout_weight=".4"
+        android:id="@+id/btn_login"
+        android:layout_width="150dp"
+        android:layout_height="0dp"
+        android:text="Sign in" 
+        android:textSize="21dp" 
+        android:textColor="#FFFFFF" 
+        android:background="@drawable/press_effect_rect"
+        android:layout_gravity="center"/>
+    <!--Space
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="20dp" />
+	<Button
+        android:id="@+id/btn_signup"
+        android:layout_width="250dp"
+        android:layout_height="40dp"
+        android:text="Sign Up as a Vendor     >" 
+        android:textSize="21dp" 
+        android:textColor="#FFFFFF"        
+        android:background="@drawable/login_button_shape"
+        android:layout_gravity="center"/-->
+<Space
+    android:layout_weight=".45"
+    android:layout_width="wrap_content"
+    android:layout_height="0dp" />
+
+<TextView
+    android:layout_weight=".15"
+    android:id="@+id/textView2"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="bottom"
+    android:text="privacy statement"
+    android:textColor="#FFFFFF" />
+    
+</LinearLayout>
